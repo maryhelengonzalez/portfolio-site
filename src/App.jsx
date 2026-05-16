@@ -17,7 +17,7 @@ export default function App() {
 
     {/* IMAGE MOVED UNDER TEXT */}
     <img
-      src="https://i.imgur.com/rSuGcFR.jpeg"
+      src="file:///Users/maryhelengonzalez/Downloads/D81E1B98-1AFC-4FA4-81F6-02663D86DD83.JPG"
       alt="profile"
       style={styles.image}
     />
