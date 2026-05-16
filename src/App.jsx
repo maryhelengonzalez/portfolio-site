@@ -27,9 +27,10 @@ export default function App() {
 
     <p style={styles.location}>📍 New York</p>
 
-    <img src={profileImg} alt="profile" style={styles.profileImg} /> 
-  </div>
-</div>
+   <div style={styles.header}>
+  <img src={profileImg} alt="profile" style={styles.profileImg} />
+
+  <div>
         {/* ABOUT */}
         <section style={styles.section}>
           <h2 style={styles.heading}>About Me</h2>
