@@ -13,7 +13,19 @@ export default function App() {
         </p>
 
         <p style={styles.location}>📍 New York</p>
+<div style={styles.header}>
+  <img src={profileImg} alt="profile" style={styles.profileImg} />
 
+  <div>
+    <h1 style={styles.name}>Maryhelen Gonzalez</h1>
+
+    <p style={styles.subtitle}>
+      Cybersecurity • Software Engineering • Network Security
+    </p>
+
+    <p style={styles.location}>📍 New York</p>
+  </div>
+</div>
         {/* ABOUT */}
         <section style={styles.section}>
           <h2 style={styles.heading}>About Me</h2>
