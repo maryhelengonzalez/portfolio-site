@@ -1,122 +1,83 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
-
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function App() {
   return (
-    <>
-      <section id="center">
-        <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
-        </div>
-        <div>
-          <h1>Get started</h1>
-          <p>
-            Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
-          </p>
-        </div>
-        <button
-          type="button"
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Count is {count}
-        </button>
+    <div style={styles.page}>
+      <h1 style={styles.name}>Maryhelen Gonzalez</h1>
+
+      <p style={styles.subtitle}>
+        Cybersecurity • Software Engineering • Network Security
+      </p>
+
+      <p style={styles.location}>📍 New York</p>
+
+      {/* ABOUT */}
+      <section style={styles.section}>
+        <h2>About Me</h2>
+
+        <p style={styles.text}>
+          I specialize in cybersecurity, system security, and software engineering.
+          I build secure, scalable systems and full-stack applications.
+        </p>
       </section>
 
-      <div className="ticks"></div>
+      {/* PROJECTS */}
+      <section style={styles.section}>
+        <h2>Projects</h2>
 
-      <section id="next-steps">
-        <div id="docs">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#documentation-icon"></use>
-          </svg>
-          <h2>Documentation</h2>
-          <p>Your questions, answered</p>
-          <ul>
-            <li>
-              <a href="https://vite.dev/" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
-                Explore Vite
-              </a>
-            </li>
-            <li>
-              <a href="https://react.dev/" target="_blank">
-                <img className="button-icon" src={reactLogo} alt="" />
-                Learn more
-              </a>
-            </li>
-          </ul>
+        <div style={styles.card}>
+          <h3>📊 FinPilot AI Dashboard</h3>
+          <a href="https://finpilot-ai-beta.vercel.app/" target="_blank">
+            Live Demo
+          </a>
         </div>
-        <div id="social">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#social-icon"></use>
-          </svg>
-          <h2>Connect with us</h2>
-          <p>Join the Vite community</p>
-          <ul>
-            <li>
-              <a href="https://github.com/vitejs/vite" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#github-icon"></use>
-                </svg>
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a href="https://chat.vite.dev/" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#discord-icon"></use>
-                </svg>
-                Discord
-              </a>
-            </li>
-            <li>
-              <a href="https://x.com/vite_js" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#x-icon"></use>
-                </svg>
-                X.com
-              </a>
-            </li>
-            <li>
-              <a href="https://bsky.app/profile/vite.dev" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#bluesky-icon"></use>
-                </svg>
-                Bluesky
-              </a>
-            </li>
-          </ul>
+
+        <div style={styles.card}>
+          <h3>📊 Loan AI Platform</h3>
+          <a href="https://loan-ai-platform.vercel.app/" target="_blank">
+            Live Demo
+          </a>
         </div>
       </section>
 
-      <div className="ticks"></div>
-      <section id="spacer"></section>
-    </>
-  )
+      {/* CONTACT */}
+      <section style={styles.section}>
+        <h2>Contact</h2>
+
+        <p>Email: your-email@gmail.com</p>
+
+        <p>
+          GitHub:{" "}
+          <a href="https://github.com/maryhelengonzalez" target="_blank">
+            github.com/maryhelengonzalez
+          </a>
+        </p>
+      </section>
+    </div>
+  );
 }
 
-export default App
+const styles = {
+  page: {
+    fontFamily: "Arial",
+    padding: "40px",
+    maxWidth: "900px",
+    margin: "0 auto",
+    background: "#020617",
+    color: "white",
+    minHeight: "100vh",
+  },
+
+  name: { fontSize: "40px" },
+  subtitle: { color: "#94a3b8" },
+  location: { color: "#60a5fa" },
+
+  section: { marginTop: "40px" },
+
+  text: { color: "#cbd5e1", lineHeight: 1.6 },
+
+  card: {
+    background: "#0f172a",
+    padding: "15px",
+    marginTop: "10px",
+    borderRadius: "10px",
+  },
+};
