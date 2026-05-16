@@ -5,16 +5,17 @@ export default function App() {
 <div style={styles.hero}>
 
   <div>
-    <h1 style={styles.name}>Maryhelen Gonzalez</h1>
-<p style={{ color: "#60a5fa", marginTop: "6px" }}>
+   <h1 style={styles.name}>Maryhelen Gonzalez</h1>
+
+<p style={styles.tagline}>
   Building secure systems and intelligent financial applications
 </p>
-    <p style={styles.subtitle}>
-  Cybersecurity Engineer • Software Engineer • Systems & Security Focus
+
+<p style={styles.subtitle}>
+  Cybersecurity Engineer • Software Engineer • Systems Architecture & Security
 </p>
 
-    <p style={styles.location}>📍 New York</p>
-
+<p style={styles.location}>📍 New York</p>
     {/* IMAGE MOVED UNDER TEXT */}
     <img
       src="https://i.imgur.com/Y3eHbbr.jpeg"
@@ -200,4 +201,12 @@ const styles = {
     border: "1px solid rgba(34,197,94,0.3)",
     background: "rgba(34,197,94,0.08)",
   },
+  tagline: {
+  color: "#60a5fa",
+  fontSize: "16px",
+  marginTop: "4px",
+  marginBottom: "8px",
+  fontWeight: "500",
+  letterSpacing: "0.2px",
+},
 };
