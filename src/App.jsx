@@ -12,15 +12,14 @@ export default function App() {
     </p>
 
     <p style={styles.location}>📍 New York</p>
+
+    {/* IMAGE MOVED UNDER TEXT */}
+    <img
+      src="https://i.imgur.com/rSuGcFR.jpeg"
+      alt="profile"
+      style={styles.image}
+    />
   </div>
-
-  <img
-    src="https://i.imgur.com/rSuGcFR.jpeg"
-    alt="profile"
-    style={styles.image}
-  />
-
-</div>        
         </div>
 
         <section style={styles.section}>
@@ -115,7 +114,9 @@ const styles = {
   height: "90px",
   borderRadius: "50%",
   objectFit: "cover",
-  border: "3px solid #22c55e",
+  border: "3px solid #165ec4",
+  marginTop: "16px",
+  display: "block",
 },
 
   name: {
