@@ -162,10 +162,11 @@ const styles = {
 },
 
 profileImg: {
-  width: "90px",
-  height: "90px",
+  width: "100px",
+  height: "100px",
   borderRadius: "50%",
   objectFit: "cover",
   border: "2px solid #22c55e",
+  marginBottom: "20px",
 },
 };
