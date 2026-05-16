@@ -21,15 +21,16 @@ export default function App() {
           </p>
         </section>
 
-       <section style={styles.section}>
+      <section style={styles.section}>
   <h2 style={styles.heading}>Projects</h2>
 
-  {/* FINPILOT */}
+  {/* FINPILOT ONLY */}
   <div style={styles.card}>
     <h3>📊 FinPilot AI Dashboard</h3>
 
     <p style={styles.text}>
-      AI-powered financial dashboard with analytics, accounts, and insights.
+      AI-powered financial dashboard with real-time analytics, account tracking,
+      and intelligent insights for financial decision-making.
     </p>
 
     <div style={styles.links}>
@@ -44,33 +45,6 @@ export default function App() {
       <a
         style={styles.link}
         href="https://github.com/maryhelengonzalez/maryhelengonzalez"
-        target="_blank"
-      >
-        GitHub Code →
-      </a>
-    </div>
-  </div>
-
-  {/* LOAN AI */}
-  <div style={styles.card}>
-    <h3>📊 Loan AI Platform</h3>
-
-    <p style={styles.text}>
-      AI-based loan prediction system with financial intelligence.
-    </p>
-
-    <div style={styles.links}>
-      <a
-        style={styles.link}
-        href="https://loan-ai-platform.vercel.app/"
-        target="_blank"
-      >
-        Live Demo →
-      </a>
-
-      <a
-        style={styles.link}
-        href="https://github.com/maryhelengonzalez/loan-ai-platform"
         target="_blank"
       >
         GitHub Code →
