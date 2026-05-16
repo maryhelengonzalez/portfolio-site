@@ -6,10 +6,12 @@ export default function App() {
 
   <div>
     <h1 style={styles.name}>Maryhelen Gonzalez</h1>
-
+<p style={{ color: "#60a5fa", marginTop: "6px" }}>
+  Building secure systems and intelligent financial applications
+</p>
     <p style={styles.subtitle}>
-      Cybersecurity • Software Engineering • Network Security
-    </p>
+  Cybersecurity Engineer • Software Engineer • Systems & Security Focus
+</p>
 
     <p style={styles.location}>📍 New York</p>
 
@@ -25,11 +27,25 @@ export default function App() {
         <section style={styles.section}>
           <h2>About Me</h2>
 
-          <p style={styles.text}>
-            I specialize in cybersecurity, system security, and software engineering.
-            I build secure, scalable systems and full-stack applications focused on
-            security, analytics, and intelligent systems.
-          </p>
+         <p style={styles.text}>
+  My interest in technology began in high school, where I was originally drawn to
+  creative and design-focused fields. That curiosity led me into Industrial Design
+  Technology and Architecture Technology, where I learned how systems, structure,
+  and problem-solving come together to build real-world solutions.
+</p>
+
+<p style={styles.text}>
+  Over time, I became more interested in the logic and security behind digital systems,
+  which led me to transition into Computer Science with a focus on Information Security.
+  Throughout college, I developed a strong passion for cybersecurity, system security,
+  and software engineering.
+</p>
+
+<p style={styles.text}>
+  Today, I focus on building secure and scalable applications, with particular interest
+  in cybersecurity, backend systems, and data-driven platforms. I enjoy working on
+  projects that combine security, performance, and real-world impact.
+</p>
         </section>
 
         <section style={styles.section}>
@@ -88,12 +104,14 @@ export default function App() {
 
 const styles = {
   page: {
-    background: "#020617",
     minHeight: "100vh",
     color: "white",
     fontFamily: "Arial",
     display: "flex",
     justifyContent: "center",
+
+    /* 🌈 GRADIENT BACKGROUND */
+    background: "linear-gradient(135deg, #020617 0%, #0f172a 40%, #020617 100%)",
   },
 
   container: {
@@ -107,21 +125,32 @@ const styles = {
     alignItems: "center",
     gap: "24px",
     marginBottom: "50px",
+
+    /* subtle glow effect */
+    padding: "20px",
+    borderRadius: "18px",
+    background: "rgba(255,255,255,0.03)",
+    border: "1px solid rgba(255,255,255,0.08)",
+    backdropFilter: "blur(10px)",
   },
 
   image: {
-  width: "90px",
-  height: "90px",
-  borderRadius: "50%",
-  objectFit: "cover",
-  border: "3px solid #165ec4",
-  marginTop: "16px",
-  display: "block",
-},
+    width: "90px",
+    height: "90px",
+    borderRadius: "50%",
+    objectFit: "cover",
+    border: "3px solid #3b82f6",
+    marginTop: "16px",
+    display: "block",
+    boxShadow: "0 0 20px rgba(59,130,246,0.4)",
+  },
 
   name: {
     fontSize: "48px",
     marginBottom: "8px",
+    color: "#ffffff",
+    fontWeight: "700",
+    letterSpacing: "-0.5px",
   },
 
   subtitle: {
@@ -145,10 +174,16 @@ const styles = {
 
   card: {
     marginTop: "20px",
-    background: "#0f172a",
+
+    /* 🌟 GLASS CARD EFFECT */
+    background: "rgba(15, 23, 42, 0.6)",
     padding: "24px",
     borderRadius: "18px",
     border: "1px solid rgba(255,255,255,0.08)",
+    backdropFilter: "blur(12px)",
+
+    /* soft glow */
+    boxShadow: "0 10px 30px rgba(0,0,0,0.3)",
   },
 
   links: {
@@ -160,5 +195,9 @@ const styles = {
   link: {
     color: "#22c55e",
     textDecoration: "none",
+    padding: "8px 12px",
+    borderRadius: "8px",
+    border: "1px solid rgba(34,197,94,0.3)",
+    background: "rgba(34,197,94,0.08)",
   },
 };
