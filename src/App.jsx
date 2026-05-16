@@ -21,32 +21,63 @@ export default function App() {
           </p>
         </section>
 
-        {/* PROJECTS */}
-        <section style={styles.section}>
-          <h2 style={styles.heading}>Projects</h2>
+       <section style={styles.section}>
+  <h2 style={styles.heading}>Projects</h2>
 
-          <div style={styles.card}>
-            <h3>📊 FinPilot AI Dashboard</h3>
-            <a
-              style={styles.link}
-              href="https://finpilot-ai-beta.vercel.app/"
-              target="_blank"
-            >
-              Live Demo →
-            </a>
-          </div>
+  {/* FINPILOT */}
+  <div style={styles.card}>
+    <h3>📊 FinPilot AI Dashboard</h3>
 
-          <div style={styles.card}>
-            <h3>📊 Loan AI Platform</h3>
-            <a
-              style={styles.link}
-              href="https://loan-ai-platform.vercel.app/"
-              target="_blank"
-            >
-              Live Demo →
-            </a>
-          </div>
-        </section>
+    <p style={styles.text}>
+      AI-powered financial dashboard with analytics, accounts, and insights.
+    </p>
+
+    <div style={styles.links}>
+      <a
+        style={styles.link}
+        href="https://finpilot-ai-beta.vercel.app/"
+        target="_blank"
+      >
+        Live Demo →
+      </a>
+
+      <a
+        style={styles.link}
+        href="https://github.com/maryhelengonzalez/maryhelengonzalez"
+        target="_blank"
+      >
+        GitHub Code →
+      </a>
+    </div>
+  </div>
+
+  {/* LOAN AI */}
+  <div style={styles.card}>
+    <h3>📊 Loan AI Platform</h3>
+
+    <p style={styles.text}>
+      AI-based loan prediction system with financial intelligence.
+    </p>
+
+    <div style={styles.links}>
+      <a
+        style={styles.link}
+        href="https://loan-ai-platform.vercel.app/"
+        target="_blank"
+      >
+        Live Demo →
+      </a>
+
+      <a
+        style={styles.link}
+        href="https://github.com/maryhelengonzalez/loan-ai-platform"
+        target="_blank"
+      >
+        GitHub Code →
+      </a>
+    </div>
+  </div>
+</section>
 
         {/* CONTACT */}
         <section style={styles.section}>
