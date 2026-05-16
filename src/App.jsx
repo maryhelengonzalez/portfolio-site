@@ -1,3 +1,5 @@
+
+import profileImg from "./assets/profile.jpg";
 export default function App() {
   return (
     <div style={styles.page}>
