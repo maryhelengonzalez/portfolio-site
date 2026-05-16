@@ -2,23 +2,25 @@ export default function App() {
   return (
     <div style={styles.page}>
       <div style={styles.container}>
+<div style={styles.hero}>
 
-        <div style={styles.hero}>
-         <img
-  src="https://i.imgur.com/rSuGcFR.jpeg"
-  alt="profile"
-  style={styles.image}
-/>
+  <div>
+    <h1 style={styles.name}>Maryhelen Gonzalez</h1>
 
-          <div>
-            <h1 style={styles.name}>Maryhelen Gonzalez</h1>
+    <p style={styles.subtitle}>
+      Cybersecurity • Software Engineering • Network Security
+    </p>
 
-            <p style={styles.subtitle}>
-              Cybersecurity • Software Engineering • Network Security
-            </p>
+    <p style={styles.location}>📍 New York</p>
+  </div>
 
-            <p style={styles.location}>📍 New York</p>
-          </div>
+  <img
+    src="https://i.imgur.com/rSuGcFR.jpeg"
+    alt="profile"
+    style={styles.image}
+  />
+
+</div>        
         </div>
 
         <section style={styles.section}>
@@ -109,12 +111,12 @@ const styles = {
   },
 
   image: {
-    width: "120px",
-    height: "120px",
-    borderRadius: "50%",
-    objectFit: "cover",
-    border: "3px solid #22c55e",
-  },
+  width: "90px",
+  height: "90px",
+  borderRadius: "50%",
+  objectFit: "cover",
+  border: "3px solid #22c55e",
+},
 
   name: {
     fontSize: "48px",
