@@ -1,12 +1,14 @@
-import profileImg from "./assets/Profile.jpg";
-
 export default function App() {
   return (
     <div style={styles.page}>
       <div style={styles.container}>
 
         <div style={styles.hero}>
-          <img src={profileImg} alt="profile" style={styles.image} />
+         <img
+  src="https://i.imgur.com/rSuGcFR.jpeg"
+  alt="profile"
+  style={styles.image}
+/>
 
           <div>
             <h1 style={styles.name}>Maryhelen Gonzalez</h1>
@@ -156,17 +158,4 @@ const styles = {
     color: "#22c55e",
     textDecoration: "none",
   },
-  image: {
-
-  width: "120px",
-
-  height: "120px",
-
-  borderRadius: "50%",
-
-  objectFit: "cover",
-
-  border: "3px solid #22c55e",
-
-},
 };
