@@ -4,26 +4,32 @@ export default function App() {
       <div style={styles.container}>
 <div style={styles.hero}>
 
-  <div>
-   <h1 style={styles.name}>Maryhelen Gonzalez</h1>
+  {/* LEFT SIDE */}
+  <div style={styles.heroText}>
+    <h1 style={styles.name}>Maryhelen Gonzalez</h1>
 
-<p style={styles.tagline}>
-  Building secure systems and intelligent financial applications
-</p>
+    <p style={styles.tagline}>
+      Building secure systems and intelligent financial applications
+    </p>
 
-<p style={styles.subtitle}>
-  Cybersecurity Engineer • Software Engineer • Systems Architecture & Security
-</p>
+    <p style={styles.subtitle}>
+      Cybersecurity Engineer • Software Engineer • Systems Architecture & Security
+    </p>
 
-<p style={styles.location}>📍 New York</p>
-    {/* IMAGE MOVED UNDER TEXT */}
+    <p style={styles.location}>📍 New York</p>
+  </div>
+
+  {/* RIGHT SIDE */}
+  <div style={styles.heroRight}>
+
     <img
       src="https://i.imgur.com/Y3eHbbr.jpeg"
       alt="profile"
       style={styles.image}
     />
+
     <div style={styles.skillsRow}>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" style={styles.skillIcon} />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" style={styles.skillIcon} />
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" style={styles.skillIcon} />
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" style={styles.skillIcon} />
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" style={styles.skillIcon} />
@@ -33,8 +39,11 @@ export default function App() {
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" style={styles.skillIcon} />
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" style={styles.skillIcon} />
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" style={styles.skillIcon} />
+    </div>
+
   </div>
-        </div>\\
+
+</div>
 
         <section style={styles.section}>
           <h2>About Me</h2>
@@ -133,18 +142,18 @@ const styles = {
   },
 
   hero: {
-    display: "flex",
-    alignItems: "center",
-    gap: "24px",
-    marginBottom: "50px",
+  display: "flex",
+  justifyContent: "space-between",
+  alignItems: "center",
+  gap: "40px",
+  marginBottom: "50px",
 
-    /* subtle glow effect */
-    padding: "20px",
-    borderRadius: "18px",
-    background: "rgba(255,255,255,0.03)",
-    border: "1px solid rgba(255,255,255,0.08)",
-    backdropFilter: "blur(10px)",
-  },
+  padding: "20px",
+  borderRadius: "18px",
+  background: "rgba(255,255,255,0.03)",
+  border: "1px solid rgba(255,255,255,0.08)",
+  backdropFilter: "blur(10px)",
+},
 
   image: {
     width: "90px",
@@ -234,6 +243,7 @@ skillIcon: {
   filter: "drop-shadow(0 0 6px rgba(59,130,246,0.4))",
   transition: "transform 0.2s ease",
 },
+
 heroText: {
   flex: 1,
 },
