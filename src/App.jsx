@@ -16,21 +16,25 @@ export default function App() {
 </p>
 
 <p style={styles.location}>📍 New York</p>
-<div style={styles.skillsRow}>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" style={styles.skillIcon} />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" style={styles.skillIcon} />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" style={styles.skillIcon} />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" style={styles.skillIcon} />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" style={styles.skillIcon} />
-</div>
     {/* IMAGE MOVED UNDER TEXT */}
     <img
       src="https://i.imgur.com/Y3eHbbr.jpeg"
       alt="profile"
       style={styles.image}
     />
+    <div style={styles.skillsRow}>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" style={styles.skillIcon} />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" style={styles.skillIcon} />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" style={styles.skillIcon} />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" style={styles.skillIcon} />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" style={styles.skillIcon} />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" style={styles.skillIcon} />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" style={styles.skillIcon} />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" style={styles.skillIcon} />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" style={styles.skillIcon} />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" style={styles.skillIcon} />
   </div>
-        </div>
+        </div>\\
 
         <section style={styles.section}>
           <h2>About Me</h2>
@@ -230,7 +234,23 @@ skillIcon: {
   filter: "drop-shadow(0 0 6px rgba(59,130,246,0.4))",
   transition: "transform 0.2s ease",
 },
+heroText: {
+  flex: 1,
+},
+
+heroRight: {
+  display: "flex",
+  flexDirection: "column",
+  alignItems: "center",
+  gap: "14px",
+},
+
+skillsWrap: {
+  display: "flex",
+  flexWrap: "wrap",
+  justifyContent: "center",
+  gap: "10px",
+  maxWidth: "140px",
+},
 };
-
-
 
