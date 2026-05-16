@@ -16,6 +16,13 @@ export default function App() {
 </p>
 
 <p style={styles.location}>📍 New York</p>
+<div style={styles.skillsRow}>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" style={styles.skillIcon} />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" style={styles.skillIcon} />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" style={styles.skillIcon} />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" style={styles.skillIcon} />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" style={styles.skillIcon} />
+</div>
     {/* IMAGE MOVED UNDER TEXT */}
     <img
       src="https://i.imgur.com/Y3eHbbr.jpeg"
@@ -209,4 +216,21 @@ const styles = {
   fontWeight: "500",
   letterSpacing: "0.2px",
 },
+skillsRow: {
+  display: "flex",
+  gap: "12px",
+  marginTop: "14px",
+  alignItems: "center",
+  flexWrap: "wrap",
+},
+
+skillIcon: {
+  width: "28px",
+  height: "28px",
+  filter: "drop-shadow(0 0 6px rgba(59,130,246,0.4))",
+  transition: "transform 0.2s ease",
+},
 };
+
+
+
