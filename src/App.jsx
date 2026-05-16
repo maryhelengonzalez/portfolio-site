@@ -1,42 +1,44 @@
-import profileImg from "./assets/profile.jpg";
+import profileImg from "./assets/Profile.jpg";
 
 export default function App() {
   return (
     <div style={styles.page}>
       <div style={styles.container}>
 
-        {/* HEADER */}
-        <div style={styles.header}>
-          <img src={profileImg} alt="profile" style={styles.profileImg} />
+        <div style={styles.hero}>
+          <img src={profileImg} alt="profile" style={styles.image} />
 
           <div>
             <h1 style={styles.name}>Maryhelen Gonzalez</h1>
+
             <p style={styles.subtitle}>
               Cybersecurity • Software Engineering • Network Security
             </p>
+
             <p style={styles.location}>📍 New York</p>
           </div>
         </div>
 
-        {/* ABOUT */}
         <section style={styles.section}>
-          <h2 style={styles.heading}>About Me</h2>
+          <h2>About Me</h2>
+
           <p style={styles.text}>
             I specialize in cybersecurity, system security, and software engineering.
-            I build secure, scalable systems and full-stack applications.
+            I build secure, scalable systems and full-stack applications focused on
+            security, analytics, and intelligent systems.
           </p>
         </section>
 
-        {/* PROJECTS */}
         <section style={styles.section}>
-          <h2 style={styles.heading}>Projects</h2>
+          <h2>Projects</h2>
 
           <div style={styles.card}>
             <h3>📊 FinPilot AI Dashboard</h3>
 
             <p style={styles.text}>
-              AI-powered financial dashboard designed to analyze income, expenses,
-              and financial behavior through real-time analytics and interactive charts.
+              AI-powered financial dashboard with real-time analytics,
+              account tracking, interactive charts, and intelligent
+              financial insights.
             </p>
 
             <div style={styles.links}>
@@ -59,11 +61,10 @@ export default function App() {
           </div>
         </section>
 
-        {/* CONTACT */}
         <section style={styles.section}>
-          <h2 style={styles.heading}>Contact</h2>
+          <h2>Contact</h2>
 
-          <p>Email: your-email@gmail.com</p>
+          <p>Email: maryhelengonzalez51@gmail.com</p>
 
           <p>
             GitHub:{" "}
@@ -85,73 +86,70 @@ export default function App() {
 const styles = {
   page: {
     background: "#020617",
-    color: "white",
     minHeight: "100vh",
+    color: "white",
     fontFamily: "Arial",
     display: "flex",
     justifyContent: "center",
   },
 
   container: {
-    maxWidth: "900px",
     width: "100%",
-    padding: "60px 20px",
+    maxWidth: "950px",
+    padding: "60px 24px",
   },
 
-  header: {
+  hero: {
     display: "flex",
     alignItems: "center",
-    gap: "20px",
-    marginBottom: "40px",
+    gap: "24px",
+    marginBottom: "50px",
   },
 
-  profileImg: {
-    width: "110px",
-    height: "110px",
+  image: {
+    width: "120px",
+    height: "120px",
     borderRadius: "50%",
     objectFit: "cover",
     border: "3px solid #22c55e",
   },
 
   name: {
-    fontSize: "42px",
-    margin: 0,
+    fontSize: "48px",
+    marginBottom: "8px",
   },
 
   subtitle: {
     color: "#94a3b8",
-    marginTop: "6px",
+    fontSize: "18px",
   },
 
   location: {
     color: "#60a5fa",
+    marginTop: "8px",
   },
 
   section: {
     marginTop: "50px",
   },
 
-  heading: {
-    fontSize: "22px",
-    marginBottom: "12px",
-  },
-
   text: {
     color: "#cbd5e1",
-    lineHeight: 1.7,
+    lineHeight: 1.8,
   },
 
   card: {
+    marginTop: "20px",
     background: "#0f172a",
-    padding: "20px",
-    borderRadius: "12px",
-    marginTop: "15px",
+    padding: "24px",
+    borderRadius: "18px",
+    border: "1px solid rgba(255,255,255,0.08)",
   },
 
   links: {
     display: "flex",
-    gap: "12px",
-    marginTop: "12px",
+    gap: "14px",
+    marginTop: "18px",
   },
 
   link: {
