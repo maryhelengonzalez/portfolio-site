@@ -150,4 +150,18 @@ const styles = {
     marginTop: "8px",
     textDecoration: "none",
   },
+  header: {
+  display: "flex",
+  alignItems: "center",
+  gap: "20px",
+  marginBottom: "40px",
+},
+
+profileImg: {
+  width: "90px",
+  height: "90px",
+  borderRadius: "50%",
+  objectFit: "cover",
+  border: "2px solid #22c55e",
+},
 };
