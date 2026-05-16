@@ -155,19 +155,18 @@ const styles = {
     marginTop: "8px",
     textDecoration: "none",
   },
-  header: {
+ header: {
   display: "flex",
   alignItems: "center",
   gap: "20px",
-  marginBottom: "40px",
+  marginBottom: "30px",
 },
 
 profileImg: {
-  width: "100px",
-  height: "100px",
+  width: "110px",
+  height: "110px",
   borderRadius: "50%",
   objectFit: "cover",
-  border: "2px solid #22c55e",
-  marginBottom: "20px",
+  border: "3px solid #22c55e",
 },
 };
