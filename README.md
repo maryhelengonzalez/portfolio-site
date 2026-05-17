@@ -37,7 +37,9 @@ The design focuses on a **modern, glassmorphism-inspired UI** with a strong emph
 ## 📸 Project Preview
 
 ### Dashboard UI
-![Dashboard](./screenshots/img1.png)
+![Dashboard](https://raw.githubusercontent.com/maryhelengonzalez/portfolio-site/main/screenshots/img1.png)
+![Dashboard](https://raw.githubusercontent.com/maryhelengonzalez/portfolio-site/main/screenshots/img2.png)
+![Dashboard](https://raw.githubusercontent.com/maryhelengonzalez/portfolio-site/main/screenshots/img3.png)
 
 ### Analytics View
 ![Analytics](./screenshots/img2.png)
