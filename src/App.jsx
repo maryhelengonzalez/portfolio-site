@@ -56,7 +56,7 @@ export default function App() {
       Technology and Architectural Technology, where I learned how systems, structures,
       and problem solving comes together to build and create real world solutions. 
     </p>
-
+    
     <p style={styles.aboutText}>
       Over time, I became more interested in the logic and security behind digital systems,
       which then led me to transition into Computer Science with a focus on Informational Security.
