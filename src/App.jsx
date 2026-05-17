@@ -52,9 +52,9 @@ export default function App() {
 
     <p style={styles.aboutText}>
       My interest in technology began in high school, where I was originally drawn to
-      creative and design-focused fields. That curiosity led me into Industrial Design
+      creative and design focused fields. That curiosity led me into Industrial Design
       Technology and Architecture Technology, where I learned how systems, structure,
-      and problem-solving come together to build real-world solutions.
+      and problem solving come together to build real world solutions.
     </p>
 
     <p style={styles.aboutText}>
@@ -66,7 +66,7 @@ export default function App() {
 
     <p style={styles.aboutText}>
       Today, I focus on building secure and scalable applications, with particular interest
-      in cybersecurity, full stack systems, and data-driven platforms. I enjoy working on
+      in cybersecurity, full stack systems, and data driven platforms. I enjoy working on
       projects that combine security, performance, and real-world impact.
     </p>
 
