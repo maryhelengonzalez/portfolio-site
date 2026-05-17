@@ -50,8 +50,6 @@ The design focuses on a **modern, glassmorphism-inspired UI** with a strong emph
 
 ---
 
-## 📫 Contact
-
 
 - 📊 Real-time financial analytics
 - 💳 Multi-account tracking (checking, savings, investments)
