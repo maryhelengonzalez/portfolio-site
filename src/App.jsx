@@ -267,10 +267,10 @@ skillsWrap: {
   maxWidth: "140px",
 },
 sectionTitle: {
+  color: "#ffffff",
   fontSize: "22px",
   fontWeight: "600",
   marginBottom: "16px",
-  color: "#ffffff",
   letterSpacing: "0.3px",
 },
 
