@@ -41,9 +41,9 @@ The design focuses on a **modern, glassmorphism-inspired UI** with a strong emph
 ![Dashboard](https://raw.githubusercontent.com/maryhelengonzalez/portfolio-site/main/screenshots/img2.png)
 ![Dashboard](https://raw.githubusercontent.com/maryhelengonzalez/portfolio-site/main/screenshots/img3.png)
 
-### Analytics View
-![Analytics](./screenshots/img2.png)
-
+### Income OverView
+![Income](https://raw.githubusercontent.com/maryhelengonzalez/portfolio-site/main/screenshots/img4.png)
+![Income](https://raw.githubusercontent.com/maryhelengonzalez/portfolio-site/main/screenshots/img5.png)
 ### Accounts Overview
 ![Accounts](./screenshots/img3.png)
 
