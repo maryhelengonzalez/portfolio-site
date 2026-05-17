@@ -52,11 +52,54 @@ The design focuses on a **modern, glassmorphism-inspired UI** with a strong emph
 
 ## 📫 Contact
 
-- Email: maryhelengonzalez51@gmail.com  
-- GitHub: https://github.com/maryhelengonzalez  
+# 📊 FinPilot AI — Financial Intelligence Dashboard
+
+A modern AI-powered financial dashboard that provides real-time analytics, account tracking, and intelligent insights for better financial decision-making.
 
 ---
 
-## 🚀 Purpose
+## 🚀 Live Demo
+👉 https://finpilot-ai-beta.vercel.app/
 
-This portfolio represents my growth from design-oriented studies into **cybersecurity and software engineering**, and my focus on building secure, scalable applications.
+---
+
+## 📸 Preview
+
+### Dashboard Overview
+![Dashboard](./screenshots/img1.png)
+
+### Analytics View
+![Analytics](./screenshots/img2.png)
+
+### Accounts Summary
+![Accounts](./screenshots/img3.png)
+
+### Insights Panel
+![Insights](./screenshots/img4.png)
+
+---
+
+## 🧠 Key Features
+
+- 📊 Real-time financial analytics
+- 💳 Multi-account tracking (checking, savings, investments)
+- 📈 Interactive charts & performance breakdown
+- 🤖 AI-driven financial insights
+- ⚡ Fast, responsive UI (React + Vite)
+- 🔐 Secure data structure design
+
+---
+
+## 🛠 Tech Stack
+
+- React.js
+- JavaScript (ES6+)
+- Vite
+- CSS3 / Modern UI styling
+- Charting Library (Recharts or similar)
+- Node.js (if backend used)
+
+---
+
+## 📂 Project Structure
+
