@@ -23,7 +23,7 @@ export default function App() {
   <div style={styles.heroRight}>
 
     <img
-      src="https://i.imgur.com/LBMmEzW.jpeg"
+      src="https://imgur.com/a/9QVGGvR"
       alt="profile"
       style={styles.image}
     />
