@@ -45,30 +45,33 @@ export default function App() {
 
 </div>
 
-        <section style={styles.section}>
-          <h2>About Me</h2>
+       <section style={styles.section}>
+  <h2 style={styles.sectionTitle}>About Me</h2>
 
-         <p style={styles.text}>
-  My interest in technology began in high school, where I was originally drawn to
-  creative and design-focused fields. That curiosity led me into Industrial Design
-  Technology and Architecture Technology, where I learned how systems, structure,
-  and problem-solving come together to build real-world solutions.
-</p>
+  <div style={styles.aboutCard}>
 
-<p style={styles.text}>
-  Over time, I became more interested in the logic and security behind digital systems,
-  which led me to transition into Computer Science with a focus on Information Security.
-  Throughout college, I developed a strong passion for cybersecurity, system security,
-  and software engineering.
-</p>
+    <p style={styles.aboutText}>
+      My interest in technology began in high school, where I was originally drawn to
+      creative and design-focused fields. That curiosity led me into Industrial Design
+      Technology and Architecture Technology, where I learned how systems, structure,
+      and problem-solving come together to build real-world solutions.
+    </p>
 
-<p style={styles.text}>
-  Today, I focus on building secure and scalable applications, with particular interest
-  in cybersecurity, backend systems, and data-driven platforms. I enjoy working on
-  projects that combine security, performance, and real-world impact.
-</p>
-        </section>
+    <p style={styles.aboutText}>
+      Over time, I became more interested in the logic and security behind digital systems,
+      which led me to transition into Computer Science with a focus on Information Security.
+      Throughout college, I developed a strong passion for cybersecurity, system security,
+      and software engineering.
+    </p>
 
+    <p style={styles.aboutText}>
+      Today, I focus on building secure and scalable applications, with particular interest
+      in cybersecurity, backend systems, and data-driven platforms. I enjoy working on
+      projects that combine security, performance, and real-world impact.
+    </p>
+
+  </div>
+</section>
         <section style={styles.section}>
           <h2>Projects</h2>
 
@@ -130,6 +133,7 @@ const styles = {
     fontFamily: "Arial",
     display: "flex",
     justifyContent: "center",
+    fontFamily: "'Poppins', 'Inter', sans-serif",
 
     /* 🌈 GRADIENT BACKGROUND */
     background: "linear-gradient(135deg, #020617 0%, #0f172a 40%, #020617 100%)",
@@ -261,5 +265,28 @@ skillsWrap: {
   justifyContent: "center",
   gap: "10px",
   maxWidth: "140px",
+},
+sectionTitle: {
+  fontSize: "22px",
+  fontWeight: "600",
+  marginBottom: "16px",
+  color: "#ffffff",
+  letterSpacing: "0.3px",
+},
+
+aboutCard: {
+  background: "rgba(15, 23, 42, 0.6)",
+  border: "1px solid rgba(255,255,255,0.08)",
+  borderRadius: "18px",
+  padding: "26px",
+  backdropFilter: "blur(12px)",
+  boxShadow: "0 10px 30px rgba(0,0,0,0.25)",
+},
+
+aboutText: {
+  color: "#cbd5e1",
+  lineHeight: "1.8",
+  fontSize: "15.5px",
+  marginBottom: "14px",
 },
 };
