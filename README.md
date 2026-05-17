@@ -45,9 +45,11 @@ The design focuses on a **modern, glassmorphism-inspired UI** with a strong emph
 ![Income](https://raw.githubusercontent.com/maryhelengonzalez/portfolio-site/main/screenshots/img4.png)
 ![Income](https://raw.githubusercontent.com/maryhelengonzalez/portfolio-site/main/screenshots/img5.png)
 ![Transaction](https://raw.githubusercontent.com/maryhelengonzalez/portfolio-site/main/screenshots/img6.png)
+
 ### Transaction Overview
 ![Transaction](https://raw.githubusercontent.com/maryhelengonzalez/portfolio-site/main/screenshots/img7.png)
-### Analytics Preview---
+
+### Analytics Preview
 ![Analytics](https://raw.githubusercontent.com/maryhelengonzalez/portfolio-site/main/screenshots/img8.png)
 - 📊 Real-time financial analytics
 - 💳 Multi-account tracking (checking, savings, investments)
