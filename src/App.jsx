@@ -73,7 +73,7 @@ export default function App() {
   </div>
 </section>
         <section style={styles.section}>
-          <h2>Projects</h2>
+         <h2 style={styles.sectionTitle}>Projects</h2>
 
           <div style={styles.card}>
             <h3>📊 FinPilot AI Dashboard</h3>
@@ -105,7 +105,7 @@ export default function App() {
         </section>
 
         <section style={styles.section}>
-          <h2>Contact</h2>
+          <h2 style={styles.sectionTitle}>Contact</h2>
 
           <p>Email: maryhelengonzalez51@gmail.com</p>
 
