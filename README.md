@@ -34,15 +34,19 @@ The design focuses on a **modern, glassmorphism-inspired UI** with a strong emph
 
 ---
 
-## 📸 Preview
+## 📸 Project Preview
 
-<p align="center">
-  <img src="./screenshots/dashboard.png" width="600"/>
-</p>
+### Dashboard UI
+![Dashboard](./screenshots/img1.png)
 
-<p align="center">
-  <img src="./screenshots/analytics.png" width="600"/>
-</p>
+### Analytics View
+![Analytics](./screenshots/img2.png)
+
+### Accounts Overview
+![Accounts](./screenshots/img3.png)
+
+### Full App Preview
+![Preview](./screenshots/img4.png)
 
 ---
 
