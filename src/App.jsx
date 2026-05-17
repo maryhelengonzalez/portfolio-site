@@ -66,7 +66,7 @@ export default function App() {
 
     <p style={styles.aboutText}>
       Today, I focus on building secure and scalable applications, with particular interest
-      in cybersecurity, backend systems, and data-driven platforms. I enjoy working on
+      in cybersecurity, full stack systems, and data-driven platforms. I enjoy working on
       projects that combine security, performance, and real-world impact.
     </p>
 
