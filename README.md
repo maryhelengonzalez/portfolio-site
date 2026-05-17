@@ -52,34 +52,6 @@ The design focuses on a **modern, glassmorphism-inspired UI** with a strong emph
 
 ## 📫 Contact
 
-# 📊 FinPilot AI — Financial Intelligence Dashboard
-
-A modern AI-powered financial dashboard that provides real-time analytics, account tracking, and intelligent insights for better financial decision-making.
-
----
-
-## 🚀 Live Demo
-👉 https://finpilot-ai-beta.vercel.app/
-
----
-
-## 📸 Preview
-
-### Dashboard Overview
-![Dashboard](./screenshots/img1.png)
-
-### Analytics View
-![Analytics](./screenshots/img2.png)
-
-### Accounts Summary
-![Accounts](./screenshots/img3.png)
-
-### Insights Panel
-![Insights](./screenshots/img4.png)
-
----
-
-## 🧠 Key Features
 
 - 📊 Real-time financial analytics
 - 💳 Multi-account tracking (checking, savings, investments)
@@ -89,17 +61,3 @@ A modern AI-powered financial dashboard that provides real-time analytics, accou
 - 🔐 Secure data structure design
 
 ---
-
-## 🛠 Tech Stack
-
-- React.js
-- JavaScript (ES6+)
-- Vite
-- CSS3 / Modern UI styling
-- Charting Library (Recharts or similar)
-- Node.js (if backend used)
-
----
-
-## 📂 Project Structure
-
