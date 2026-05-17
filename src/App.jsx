@@ -23,7 +23,7 @@ export default function App() {
   <div style={styles.heroRight}>
 
     <img
-      src="https://i.imgur.com/Y3eHbbr.jpeg"
+      src="https://i.imgur.com/LBMmEzW.jpeg"
       alt="profile"
       style={styles.image}
     />
@@ -263,4 +263,3 @@ skillsWrap: {
   maxWidth: "140px",
 },
 };
-
