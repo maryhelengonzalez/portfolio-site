@@ -171,7 +171,6 @@ const styles = {
   page: {
     minHeight: "100vh",
     color: "white",
-    fontFamily: "Arial",
     display: "flex",
     justifyContent: "center",
     fontFamily: "'Poppins', 'Inter', sans-serif",
