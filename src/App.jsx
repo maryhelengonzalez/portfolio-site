@@ -134,7 +134,7 @@ export default function App() {
       </a>
 
       <a
-        href="YOUR_GITHUB_LINK"
+        href="https://github.com/maryhelengonzalez/delivery-optimizer
         target="_blank"
         style={styles.link}
       >
