@@ -143,7 +143,6 @@ export default function App() {
     </div>
   </div>
 </section>          
-        </section>
 
         <section style={styles.section}>
           <h2 style={styles.sectionTitle}>Contact</h2>
