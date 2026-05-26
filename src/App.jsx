@@ -107,22 +107,33 @@ export default function App() {
   <div style={styles.card}>
     <h3>🚚 Intelligent Delivery Dispatch System</h3>
 
-    <p style={styles.text}>
-      Full stack logistics and dispatch platform built with React,
-      FastAPI, PostgreSQL, and Leaflet maps. Features real-time
-      delivery order management, driver assignment workflows,
-      route visualization, dynamic mapping, ratings/reviews,
-      and multi-service dispatch operations for food delivery,
-      ride services, and courier logistics.
-    </p>
+  <p style={styles.text}>
 
-    <p style={styles.text}>
-      Designed with scalable backend architecture, API driven
-      geolocation services, interactive route rendering,
-      and operational workflow management inspired by
-      modern logistics platforms like Uber, DoorDash,
-      and enterprise fleet systems.
-    </p>
+  A full-stack logistics and dispatch platform built with React, FastAPI,
+
+  PostgreSQL, and Leaflet for real-time operational control.
+
+</p>
+
+<p style={styles.text}>
+
+  Supports live order management, intelligent driver assignment, and
+
+  map-based route visualization through an API-driven geolocation system.
+
+  Designed for multi-service dispatch workflows including delivery, ride,
+
+  and courier operations.
+
+</p>
+
+<p style={styles.text}>
+
+  Built on a scalable backend architecture for real-time coordination,
+
+  workflow automation, and extensible enterprise logistics operations.
+
+</p>
 
     <div style={styles.links}>
       <a
