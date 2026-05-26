@@ -80,7 +80,7 @@ export default function App() {
             <h3>📊 FinPilot AI Dashboard</h3>
 
             <p style={styles.text}>
-              AI-powered financial dashboard with real-time analytics,
+              AI powered financial dashboard with real time analytics,
               account tracking, interactive charts, and intelligent
               financial insights.
             </p>
