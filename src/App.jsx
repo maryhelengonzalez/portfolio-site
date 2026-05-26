@@ -109,9 +109,9 @@ export default function App() {
 
   <p style={styles.text}>
 
-  A full-stack logistics and dispatch platform built with React, FastAPI,
+  A full stack logistics and dispatch platform built with React, FastAPI,
 
-  PostgreSQL, and Leaflet for real-time operational control.
+  PostgreSQL, and Leaflet for real time operational control.
 
 </p>
 
@@ -119,9 +119,9 @@ export default function App() {
 
   Supports live order management, intelligent driver assignment, and
 
-  map-based route visualization through an API-driven geolocation system.
+  map based route visualization through an API-driven geolocation system.
 
-  Designed for multi-service dispatch workflows including delivery, ride,
+  Designed for multi service dispatch workflows including delivery, ride,
 
   and courier operations.
 
@@ -129,7 +129,7 @@ export default function App() {
 
 <p style={styles.text}>
 
-  Built on a scalable backend architecture for real-time coordination,
+  Built on a scalable backend architecture for real time coordination,
 
   workflow automation, and extensible enterprise logistics operations.
 
