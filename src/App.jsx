@@ -6,7 +6,7 @@ export default function App() {
 
   {/* LEFT SIDE */}
   <div style={styles.heroText}>
-    <h1 style={styles.name}>Maryhelen Gonzalez</h1>
+    <h1 className="name">Maryhelen Gonzalez </h1>
 
     <p style={styles.tagline}>
       Building secure systems and intelligent financial applications
