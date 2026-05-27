@@ -125,13 +125,19 @@ const styles = {
   },
  
 name: {
-  fontFamily: "'Poppins', sans-serif",
-  fontSize: "46px",
-  fontWeight: "900",
-  letterSpacing: "-1.5px",
-  background: "linear-gradient(90deg, #22c55e, #3b82f6, #a855f7)",
-  WebkitBackgroundClip: "text",
-  WebkitTextFillColor: "transparent",
+  fontFamily: "'Space Grotesk', sans-serif",
+  fontSize: "52px",
+  fontWeight: "800",
+  letterSpacing: "-2px",
+  color: "#ffffff",
+  marginBottom: "10px",
+  lineHeight: "1.1",
+},
+  heroText: {
+  flex: 1,
+  display: "flex",
+  flexDirection: "column",
+  gap: "6px",
 },
   tagline: {
   fontSize: "18px",
