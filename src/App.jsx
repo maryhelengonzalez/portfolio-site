@@ -3,7 +3,7 @@ export default function App() {
     <div style={styles.page}>
       <div style={styles.container}>
 
-           {/* HERO */}
+          
       <div style={styles.hero}>
   <div style={styles.heroText}>
     <h1 className="name">Maryhelen Gonzalez </h1>
