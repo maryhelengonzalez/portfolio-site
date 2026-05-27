@@ -128,9 +128,8 @@ name: {
   fontSize: "46px",
   fontWeight: "800",
   letterSpacing: "-1.5px",
-  background: "linear-gradient(90deg, #ffffff, #60a5fa, #22c55e)",
-  WebkitBackgroundClip: "text",
-  WebkitTextFillColor: "transparent",
+  color: "#ffffff",
+  textShadow: "0 0 10px rgba(96,165,250,0.6), 0 0 20px rgba(34,197,94,0.3)",
 },
   tagline: {
   fontSize: "18px",
