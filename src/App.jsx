@@ -123,6 +123,26 @@ const styles = {
     color: "#22c55e",
     textDecoration: "none",
   },
+  projectTitle: {
+  fontSize: "20px",
+  fontWeight: "700",
+  marginBottom: "6px",
+  color: "#ffffff",
+},
+
+projectSubtitle: {
+  fontSize: "14px",
+  color: "#60a5fa",
+  marginBottom: "12px",
+  fontWeight: "500",
+},
+
+bullets: {
+  marginTop: "12px",
+  paddingLeft: "18px",
+  color: "#cbd5e1",
+  lineHeight: "1.8",
+},
 };
 
 export default function App() {
