@@ -124,9 +124,10 @@ const styles = {
     textDecoration: "none",
   },
   name: {
-  fontSize: "42px",
+  fontFamily: "'Inter', sans-serif",
+  fontSize: "44px",
   fontWeight: "800",
-  letterSpacing: "-1px",
+  letterSpacing: "-1.2px",
   background: "linear-gradient(90deg, #ffffff, #60a5fa)",
   WebkitBackgroundClip: "text",
   WebkitTextFillColor: "transparent",
