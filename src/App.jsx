@@ -123,6 +123,35 @@ const styles = {
     color: "#22c55e",
     textDecoration: "none",
   },
+  name: {
+  fontSize: "42px",
+  fontWeight: "800",
+  letterSpacing: "-1px",
+  background: "linear-gradient(90deg, #ffffff, #60a5fa)",
+  WebkitBackgroundClip: "text",
+  WebkitTextFillColor: "transparent",
+  marginBottom: "8px",
+},
+
+tagline: {
+  fontSize: "18px",
+  color: "#93c5fd",
+  marginBottom: "10px",
+  fontWeight: "500",
+},
+
+subtitle: {
+  fontSize: "14px",
+  color: "#cbd5e1",
+  marginBottom: "10px",
+  letterSpacing: "0.3px",
+},
+
+location: {
+  fontSize: "14px",
+  color: "#60a5fa",
+  fontWeight: "500",
+},
 };
 
 export default function App() {
@@ -131,20 +160,26 @@ export default function App() {
       <div style={styles.container}>
 
         {/* HERO */}
-        <div style={styles.hero}>
-          <div style={styles.heroText}>
-            <h1>Maryhelen Gonzalez</h1>
+<div style={styles.hero}>
+  <div style={styles.heroText}>
 
-            <p style={styles.tagline}>
-              Building secure systems and intelligent financial applications
-            </p>
+    <h1 style={styles.name}>
+      Maryhelen Gonzalez
+    </h1>
 
-            <p style={styles.subtitle}>
-              Cybersecurity Engineer • Software Engineer • Systems Architecture & Security
-            </p>
+    <p style={styles.tagline}>
+      Building secure systems and intelligent financial applications
+    </p>
 
-            <p style={styles.location}>📍 New York</p>
-          </div>
+    <p style={styles.subtitle}>
+      Cybersecurity Engineer • Software Engineer • Systems Architecture & Security
+    </p>
+
+    <p style={styles.location}>
+      📍 New York
+    </p>
+
+  </div>
 
           <div style={styles.heroRight}>
             <img
