@@ -183,29 +183,20 @@ export default function App() {
           </div>
         </div>
 
-       {/* ABOUT */}
+        {/* ABOUT */}
+        <section style={styles.section}>
+          <h2 style={styles.sectionTitle}>About Me</h2>
 
-<section style={styles.section}>
+          <div style={styles.aboutCard}>
+            <p style={styles.aboutText}>
+              My interest in technology began in high school...
+            </p>
 
-  <h2 style={styles.sectionTitle}>About Me</h2>
-
-  <div style={styles.aboutCard}>
-
-    <p style={styles.aboutText}>
-
-      My interest in technology began in high school, where I was consistently drawn to design and creative problem solving. After graduating, I pursued Industrial Design Technology for my associate’s degree. As I continued into my bachelor’s, I explored architecture for a semester, but became increasingly curious about the structure and logic behind the software I was using every day.
-
-    </p>
-
-    <p style={styles.aboutText}>
-
-      That curiosity led me to transition into Computer Science, where I fully developed my technical foundation and understanding of software systems. Today, I focus on building scalable applications, full stack development, and continuously growing my skills in software engineering and cybersecurity.
-
-    </p>
-
-  </div>
-
-</section>
+            <p style={styles.aboutText}>
+              That curiosity led me into Computer Science...
+            </p>
+          </div>
+        </section>
 
         {/* PROJECTS */}
         <section style={styles.section}>
@@ -217,72 +208,26 @@ export default function App() {
             <p style={styles.text}>
               AI powered financial dashboard with analytics and intelligent insights.
             </p>
-
-            <div style={styles.links}>
-              <a
-                href="https://finpilot-ai-beta.vercel.app/"
-                target="_blank"
-                rel="noreferrer"
-                style={styles.link}
-              >
-                Live Demo →
-              </a>
-
-              <a
-                href="https://github.com/maryhelengonzalez"
-                target="_blank"
-                rel="noreferrer"
-                style={styles.link}
-              >
-                GitHub Code →
-              </a>
-            </div>
           </div>
 
-        {/* PROJECT 2 */}
-          
-<div style={styles.card}>
-  <h3 style={styles.projectTitle}>
-    🚚 Intelligent Delivery Dispatch System
-  </h3>
+          <div style={styles.card}>
+            <h3 style={styles.projectTitle}>
+              🚚 Intelligent Delivery Dispatch System
+            </h3>
 
-  <p style={styles.projectSubtitle}>
-    Full-stack logistics & real-time dispatch platform
-  </p>
+            <p style={styles.projectSubtitle}>
+              Full-stack logistics & real-time dispatch platform
+            </p>
 
-  <p style={styles.text}>
-    Built with <b>React</b>, <b>FastAPI</b>, <b>PostgreSQL</b>, and{" "}
-    <b>Leaflet Maps</b>, this system simulates real-world delivery operations
-    with live tracking and routing.
-  </p>
+            <ul style={styles.bullets}>
+              <li>📍 Real-time tracking</li>
+              <li>🚗 Driver dispatch</li>
+              <li>🗺️ Leaflet routing</li>
+              <li>⚙️ Backend API system</li>
+            </ul>
+          </div>
+        </section>
 
-  <ul style={styles.bullets}>
-    <li>📍 Real-time order tracking & assignment</li>
-    <li>🚗 Intelligent driver dispatch system</li>
-    <li>🗺️ Map-based route visualization (Leaflet)</li>
-    <li>⚙️ Backend API-driven logistics engine</li>
-  </ul>
-
-  <div style={styles.links}>
-    <a
-      href="https://delivery-optimizer-two.vercel.app"
-      target="_blank"
-      rel="noreferrer"
-      style={styles.link}
-    >
-      Live Demo →
-    </a>
-
-    <a
-      href="https://github.com/maryhelengonzalez/delivery-optimizer"
-      target="_blank"
-      rel="noreferrer"
-      style={styles.link}
-    >
-      GitHub Code →
-    </a>
-  </div>
-</div>
         {/* CONTACT */}
         <section style={styles.section}>
           <h2 style={styles.sectionTitle}>Contact</h2>
@@ -306,3 +251,4 @@ export default function App() {
     </div>
   );
 }
+
