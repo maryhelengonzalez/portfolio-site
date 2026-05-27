@@ -155,7 +155,7 @@ export default function App() {
 
     <div style={styles.links}>
       <a
-        href="https://delivery-optimizer-3val.vercel.app/"
+        href="https://delivery-optimizer-two.vercel.app"
         target="_blank"
         style={styles.link}
       >
