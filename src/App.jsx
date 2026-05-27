@@ -225,7 +225,7 @@ export default function App() {
     </div>
 
     <p style={styles.text}>
-      Full stack logistics platform built with React, FastAPI, PostgreSQL, and Leaflet.
+     Scalable logistics orchestration platform enabling real-time delivery tracking, intelligent driver assignment, and map-based route optimization.
     </p>
 
     <div style={styles.links}>
