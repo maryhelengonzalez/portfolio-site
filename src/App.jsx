@@ -182,66 +182,63 @@ export default function App() {
           </div>
         </section>
 
-        {/* PROJECTS */}
-        <section style={styles.section}>
-          <h2 style={styles.sectionTitle}>Projects</h2>
+       {/* PROJECTS */}
+<section style={styles.section}>
+  <h2 style={styles.sectionTitle}>Projects</h2>
 
-          <div style={styles.card}>
-            <h3>📊 FinPilot AI Dashboard</h3>
+  {/* PROJECT 1 */}
+  <div style={styles.card}>
+    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+      <h3 style={{ margin: 0, fontSize: "20px", color: "#ffffff" }}>
+        📊 FinPilot AI Dashboard
+      </h3>
+      <span style={{ color: "#60a5fa", fontSize: "12px" }}>
+        AI • Finance • Analytics
+      </span>
+    </div>
 
-            <p style={styles.text}>
-              AI powered financial dashboard with analytics and intelligent insights.
-            </p>
+    <p style={styles.text}>
+      AI powered financial dashboard with analytics and intelligent insights.
+    </p>
 
-            <div style={styles.links}>
-              <a
-                href="https://finpilot-ai-beta.vercel.app/"
-                target="_blank"
-                rel="noreferrer"
-                style={styles.link}
-              >
-                Live Demo →
-              </a>
+    <div style={styles.links}>
+      <a href="https://finpilot-ai-beta.vercel.app/" target="_blank" rel="noreferrer" style={styles.link}>
+        Live Demo →
+      </a>
 
-              <a
-                href="https://github.com/maryhelengonzalez"
-                target="_blank"
-                rel="noreferrer"
-                style={styles.link}
-              >
-                GitHub Code →
-              </a>
-            </div>
-          </div>
+      <a href="https://github.com/maryhelengonzalez" target="_blank" rel="noreferrer" style={styles.link}>
+        GitHub →
+      </a>
+    </div>
+  </div>
 
-          <div style={styles.card}>
-            <h3>🚚 Intelligent Delivery Dispatch System</h3>
+  {/* PROJECT 2 */}
+  <div style={styles.card}>
+    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+      <h3 style={{ margin: 0, fontSize: "20px", color: "#ffffff" }}>
+        🚚 Intelligent Delivery Dispatch System
+      </h3>
 
-            <p style={styles.text}>
-              Full stack logistics platform built with React, FastAPI, PostgreSQL, and Leaflet.
-            </p>
+      <span style={{ color: "#60a5fa", fontSize: "12px" }}>
+        Full Stack • Logistics • Maps
+      </span>
+    </div>
 
-            <div style={styles.links}>
-              <a
-                href="https://delivery-optimizer-two.vercel.app"
-                target="_blank"
-                rel="noreferrer"
-                style={styles.link}
-              >
-                Live Demo →
-              </a>
+    <p style={styles.text}>
+      Full stack logistics platform built with React, FastAPI, PostgreSQL, and Leaflet.
+    </p>
 
-              <a
-                href="https://github.com/maryhelengonzalez/delivery-optimizer"
-                target="_blank"
-                rel="noreferrer"
-                style={styles.link}
-              >
-                GitHub Code →
-              </a>
-            </div>
-          </div>
-        </section>
+    <div style={styles.links}>
+      <a href="https://delivery-optimizer-two.vercel.app" target="_blank" rel="noreferrer" style={styles.link}>
+        Live Demo →
+      </a>
+
+      <a href="https://github.com/maryhelengonzalez/delivery-optimizer" target="_blank" rel="noreferrer" style={styles.link}>
+        GitHub →
+      </a>
+    </div>
+  </div>
+</section>
 
         {/* CONTACT */}
         <section style={styles.section}>
