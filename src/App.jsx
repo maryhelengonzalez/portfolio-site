@@ -2,9 +2,9 @@ export default function App() {
   return (
     <div style={styles.page}>
       <div style={styles.container}>
-<div style={styles.hero}>
 
-  {/* LEFT SIDE */}
+        </div>   {/* HERO */}
+      <div style={styles.hero}>
   <div style={styles.heroText}>
     <h1 className="name">Maryhelen Gonzalez </h1>
 
