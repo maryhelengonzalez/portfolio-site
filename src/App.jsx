@@ -132,6 +132,8 @@ name: {
   WebkitBackgroundClip: "text",
   WebkitTextFillColor: "transparent",
   filter: "drop-shadow(0 0 10px rgba(59,130,246,0.3))",
+  cursor: "default",
+  transition: "0.3s ease",
 },
   tagline: {
   fontSize: "18px",
