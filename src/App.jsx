@@ -163,24 +163,16 @@ export default function App() {
           </div>
         </div>
 
-        {/* ABOUT */}
-        <section style={styles.section}>
-          <h2 style={styles.sectionTitle}>About Me</h2>
+       {/* ABOUT */}
+<section style={styles.section}>
+  <h2 style={styles.sectionTitle}>About Me</h2>
 
-          <div style={styles.aboutCard}>
-            <p style={styles.aboutText}>
-              My interest in technology began in high school where I was drawn to design and systems thinking.
-            </p>
-
-            <p style={styles.aboutText}>
-              Over time, I transitioned into Computer Science and Informational Security.
-            </p>
-
-            <p style={styles.aboutText}>
-              Today I focus on cybersecurity, scalable systems, and full stack applications.
-            </p>
-          </div>
-        </section>
+  <div style={styles.aboutCard}>
+    <p style={styles.aboutText}>
+      I started my academic journey with an Associate’s degree in Industrial Design, where I developed a strong foundation in design thinking, structure, and system-based problem solving. As I progressed, I explored architectural concepts, but became increasingly interested in the logic and engineering behind software systems. That shift led me to pursue a Bachelor’s degree in Computer Science and Information Security, where I transitioned fully into software and cybersecurity. Today, I focus on building secure and scalable applications.
+    </p>
+  </div>
+</section>
 
        {/* PROJECTS */}
 <section style={styles.section}>
