@@ -198,57 +198,81 @@ export default function App() {
           </div>
         </section>
 
-        {/* PROJECTS */}
-        <section style={styles.section}>
-          <h2 style={styles.sectionTitle}>Projects</h2>
+      {/* PROJECTS */}
+<section style={styles.section}>
+  <h2 style={styles.sectionTitle}>Projects</h2>
 
-          <div style={styles.card}>
-            <h3>📊 FinPilot AI Dashboard</h3>
+  {/* PROJECT 1 */}
+  <div style={styles.card}>
+    <h3>📊 FinPilot AI Dashboard</h3>
 
-            <p style={styles.text}>
-              AI powered financial dashboard with analytics and intelligent insights.
-            </p>
-          </div>
+    <p style={styles.text}>
+      AI powered financial dashboard with analytics and intelligent insights.
+    </p>
 
-          <div style={styles.card}>
-            <h3 style={styles.projectTitle}>
-              🚚 Intelligent Delivery Dispatch System
-            </h3>
+    <div style={styles.links}>
+      <a
+        href="https://finpilot-ai-beta.vercel.app/"
+        target="_blank"
+        rel="noreferrer"
+        style={styles.link}
+      >
+        Live Demo →
+      </a>
 
-            <p style={styles.projectSubtitle}>
-              Full-stack logistics & real-time dispatch platform
-            </p>
-
-            <ul style={styles.bullets}>
-              <li>📍 Real-time tracking</li>
-              <li>🚗 Driver dispatch</li>
-              <li>🗺️ Leaflet routing</li>
-              <li>⚙️ Backend API system</li>
-            </ul>
-          </div>
-        </section>
-
-        {/* CONTACT */}
-        <section style={styles.section}>
-          <h2 style={styles.sectionTitle}>Contact</h2>
-
-          <p>Email: maryhelengonzalez51@gmail.com</p>
-
-          <p>
-            GitHub:{" "}
-            <a
-              href="https://github.com/maryhelengonzalez"
-              target="_blank"
-              rel="noreferrer"
-              style={styles.link}
-            >
-              github.com/maryhelengonzalez
-            </a>
-          </p>
-        </section>
-
-      </div>
+      <a
+        href="https://github.com/maryhelengonzalez"
+        target="_blank"
+        rel="noreferrer"
+        style={styles.link}
+      >
+        GitHub Code →
+      </a>
     </div>
-  );
-}
+  </div>
+
+  {/* PROJECT 2 */}
+  <div style={styles.card}>
+    <h3 style={styles.projectTitle}>
+      🚚 Intelligent Delivery Dispatch System
+    </h3>
+
+    <p style={styles.projectSubtitle}>
+      Full-stack logistics & real-time dispatch platform
+    </p>
+
+    <p style={styles.text}>
+      Built with <b>React</b>, <b>FastAPI</b>, <b>PostgreSQL</b>, and{" "}
+      <b>Leaflet Maps</b>, this system simulates real-world delivery operations
+      with live tracking and routing.
+    </p>
+
+    <ul style={styles.bullets}>
+      <li>📍 Real-time order tracking & assignment</li>
+      <li>🚗 Intelligent driver dispatch system</li>
+      <li>🗺️ Map-based route visualization (Leaflet)</li>
+      <li>⚙️ Backend API-driven logistics engine</li>
+    </ul>
+
+    <div style={styles.links}>
+      <a
+        href="https://delivery-optimizer-two.vercel.app"
+        target="_blank"
+        rel="noreferrer"
+        style={styles.link}
+      >
+        Live Demo →
+      </a>
+
+      <a
+        href="https://github.com/maryhelengonzalez/delivery-optimizer"
+        target="_blank"
+        rel="noreferrer"
+        style={styles.link}
+      >
+        GitHub Code →
+      </a>
+    </div>
+  </div>
+</section>      
 
