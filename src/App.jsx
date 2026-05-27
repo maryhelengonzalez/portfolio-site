@@ -163,19 +163,28 @@ export default function App() {
           </div>
         </div>
 
-        {/* ABOUT */}
+       {/* ABOUT */}
+
 <section style={styles.section}>
+
   <h2 style={styles.sectionTitle}>About Me</h2>
 
   <div style={styles.aboutCard}>
+
     <p style={styles.aboutText}>
-      My interest in technology began in high school, where I was always involved with design. After graduating, I pursued Industrial Design Technology for my associate’s degree. As I continued into my bachelor’s, I explored architecture for a semester, but became more curious about the structure behind the software I was using.
+
+      My interest in technology began in high school, where I was consistently drawn to design and creative problem-solving. After graduating, I pursued Industrial Design Technology for my associate’s degree. As I continued into my bachelor’s, I explored architecture for a semester, but became increasingly curious about the structure and logic behind the software I was using every day.
+
     </p>
 
     <p style={styles.aboutText}>
-      That curiosity led me to transition into Computer Science, where I fully evolved my technical foundation. Today, I focus on building scalable systems, full-stack applications, and expanding my knowledge in software engineering and cybersecurity.
+
+      That curiosity led me to transition into Computer Science, where I fully developed my technical foundation and understanding of software systems. Today, I focus on building scalable applications, full-stack development, and continuously growing my skills in software engineering and cybersecurity.
+
     </p>
+
   </div>
+
 </section>
 
         {/* PROJECTS */}
