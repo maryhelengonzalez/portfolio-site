@@ -1,205 +1,217 @@
-
- 
 export default function App() {
+
   return (
+
     <div style={styles.page}>
+
       <div style={styles.container}>
 
-        
+        {/* HERO */}
+
         <div style={styles.hero}>
-  
 
-  {/* LEFT SIDE */}
-  <div style={styles.heroText}>
-    <h1 className="name">Maryhelen Gonzalez </h1>
+          {/* LEFT */}
 
-    <p style={styles.tagline}>
-      Building secure systems and intelligent financial applications
-    </p>
+          <div style={styles.heroText}>
 
-    <p style={styles.subtitle}>
-      Cybersecurity Engineer • Software Engineer • Systems Architecture & Security
-    </p>
+            <h1 className="name">Maryhelen Gonzalez</h1>
 
-    <p style={styles.location}>📍 New York</p>
-  </div>
+            <p style={styles.tagline}>
 
-  {/* RIGHT SIDE */}
-  <div style={styles.heroRight}>
+              Building secure systems and intelligent financial applications
 
-    <img
-      src="https://i.imgur.com/5ejoW3i.jpeg"
-      alt="profile"
-      style={styles.image}
-    />
-<div style={styles.skillsRow}>
+            </p>
 
-  
+            <p style={styles.subtitle}>
 
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" style={styles.skillIcon} />
+              Cybersecurity Engineer • Software Engineer • Systems Architecture & Security
 
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" style={styles.skillIcon} />
+            </p>
 
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" style={styles.skillIcon} />
+            <p style={styles.location}>📍 New York</p>
 
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" style={styles.skillIcon} />
+          </div>
 
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" style={styles.skillIcon} />
+          {/* RIGHT */}
 
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" style={styles.skillIcon} />
+          <div style={styles.heroRight}>
 
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" style={styles.skillIcon} />
+            <img
 
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" style={styles.skillIcon} />
+              src="https://i.imgur.com/5ejoW3i.jpeg"
 
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" style={styles.skillIcon} />
+              alt="profile"
 
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" style={styles.skillIcon} />
+              style={styles.image}
 
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" style={styles.skillIcon} />
+            />
 
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" style={styles.skillIcon} />
+            <div style={styles.skillsRow}>
 
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" style={styles.skillIcon} />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" style={styles.skillIcon} />
 
-</div>
-    
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" style={styles.skillIcon} />
 
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" style={styles.skillIcon} />
 
-</div>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" style={styles.skillIcon} />
 
-       <section style={styles.section}>
-  <h2 style={styles.sectionTitle}>About Me</h2>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" style={styles.skillIcon} />
 
-  <div style={styles.aboutCard}>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" style={styles.skillIcon} />
 
-    <p style={styles.aboutText}>
-      My interest in technology began in high school, where I was originally drawn to
-      creative and design focused fields. That curiosity led me into Industrial Design
-      Technology and Architectural Technology, where I learned how systems, structures,
-      and problem solving comes together to build and create real world solutions. 
-    </p>
-    
-    <p style={styles.aboutText}>
-      Over time, I became more interested in the logic and security behind digital systems,
-      which then led me to transition into Computer Science with a focus on Informational Security.
-      Throughout college, I developed a strong passion for cybersecurity, system security,
-      and software engineering.
-    </p>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" style={styles.skillIcon} />
 
-    <p style={styles.aboutText}>
-      Today, I focus on building secure and scalable applications, with particular interest
-      in cybersecurity, full stack systems, and data driven platforms. I enjoy working on
-      projects that combine security, performance, and real world impact.
-    </p>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" style={styles.skillIcon} />
 
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" style={styles.skillIcon} />
 
-  </div>
-</section>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" style={styles.skillIcon} />
+
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" style={styles.skillIcon} />
+
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" style={styles.skillIcon} />
+
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" style={styles.skillIcon} />
+
+            </div>
+
+          </div>
+
+        </div>
+
+        {/* ABOUT */}
+
         <section style={styles.section}>
-         <h2 style={styles.sectionTitle}>Projects</h2>
+
+          <h2 style={styles.sectionTitle}>About Me</h2>
+
+          <div style={styles.aboutCard}>
+
+            <p style={styles.aboutText}>
+
+              My interest in technology began in high school, where I was originally drawn to creative and design focused fields...
+
+            </p>
+
+            <p style={styles.aboutText}>
+
+              Over time, I became more interested in the logic and security behind digital systems...
+
+            </p>
+
+            <p style={styles.aboutText}>
+
+              Today, I focus on building secure and scalable applications...
+
+            </p>
+
+          </div>
+
+        </section>
+
+        {/* PROJECTS */}
+
+        <section style={styles.section}>
+
+          <h2 style={styles.sectionTitle}>Projects</h2>
+
+          {/* PROJECT 1 */}
 
           <div style={styles.card}>
+
             <h3>📊 FinPilot AI Dashboard</h3>
 
             <p style={styles.text}>
-              AI powered financial dashboard with real time analytics,
-              account tracking, interactive charts, and intelligent
-              financial insights.
+
+              AI powered financial dashboard with real time analytics, account tracking, and intelligent insights.
+
             </p>
 
             <div style={styles.links}>
-              <a
-                href="https://finpilot-ai-beta.vercel.app/"
-                target="_blank"
-                style={styles.link}
-              >
+
+              <a href="https://finpilot-ai-beta.vercel.app/" target="_blank" rel="noreferrer" style={styles.link}>
+
                 Live Demo →
+
               </a>
 
-              <a
-                href="https://github.com/maryhelengonzalez"
-                target="_blank"
-                style={styles.link}
-              >
+              <a href="https://github.com/maryhelengonzalez" target="_blank" rel="noreferrer" style={styles.link}>
+
                 GitHub Code →
+
               </a>
+
             </div>
+
           </div>
-{/* PROJECT 2 */}
-  <div style={styles.card}>
-    <h3>🚚 Intelligent Delivery Dispatch System</h3>
 
-  <p style={styles.text}>
+          {/* PROJECT 2 */}
 
-  A full stack logistics and dispatch platform built with React, FastAPI,
+          <div style={styles.card}>
 
-  PostgreSQL, and Leaflet for real time operational control.
+            <h3>🚚 Intelligent Delivery Dispatch System</h3>
 
-</p>
+            <p style={styles.text}>
 
-<p style={styles.text}>
+              Full stack logistics platform built with React, FastAPI, PostgreSQL, and Leaflet.
 
-  Supports live order management, intelligent driver assignment, and
+            </p>
 
-  map based route visualization through an API-driven geolocation system.
+            <p style={styles.text}>
 
-  Designed for multi service dispatch workflows including delivery, ride,
+              Supports live orders, driver assignment, and route visualization.
 
-  and courier operations.
+            </p>
 
-</p>
+            <div style={styles.links}>
 
-<p style={styles.text}>
+              <a href="https://delivery-optimizer-two.vercel.app" target="_blank" rel="noreferrer" style={styles.link}>
 
-  Built on a scalable backend architecture for real time coordination,
+                Live Demo →
 
-  workflow automation, and extensible enterprise logistics operations.
+              </a>
 
-</p>
+              <a href="https://github.com/maryhelengonzalez/delivery-optimizer" target="_blank" rel="noreferrer" style={styles.link}>
 
-   <div style={styles.links}>
-  <a
-    href="https://delivery-optimizer-two.vercel.app"
-    target="_blank"
-    rel="noreferrer"
-    style={styles.link}
-  >
-    Live Demo →
-  </a>
+                GitHub Code →
 
-  <a
-    href="https://github.com/maryhelengonzalez/delivery-optimizer"
-    target="_blank"
-    rel="noreferrer"
-    style={styles.link}
-  >
-    GitHub Code →
-  </a>
-</div>
-  </div>
-</section>          
+              </a>
+
+            </div>
+
+          </div>
+
+        </section>
+
+        {/* CONTACT */}
 
         <section style={styles.section}>
+
           <h2 style={styles.sectionTitle}>Contact</h2>
 
           <p>Email: maryhelengonzalez51@gmail.com</p>
 
           <p>
+
             GitHub:{" "}
-            <a
-              href="https://github.com/maryhelengonzalez"
-              target="_blank"
-              style={styles.link}
-            >
+
+            <a href="https://github.com/maryhelengonzalez" target="_blank" rel="noreferrer" style={styles.link}>
+
               github.com/maryhelengonzalez
+
             </a>
+
           </p>
+
         </section>
 
       </div>
+
     </div>
+
   );
+
 }
 
 const styles = {
