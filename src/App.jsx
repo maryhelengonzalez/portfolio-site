@@ -153,23 +153,25 @@ export default function App() {
 
 </p>
 
-    <div style={styles.links}>
-      <a
-        href="https://delivery-optimizer-two.vercel.app/"
-        target="_blank"
-        style={styles.link}
-      >
-        Live Demo →
-      </a>
+   <div style={styles.links}>
+  <a
+    href="https://delivery-optimizer-two.vercel.app/"
+    target="_blank"
+    rel="noreferrer"
+    style={styles.link}
+  >
+    Live Demo →
+  </a>
 
-      <a
-        href="https://github.com/maryhelengonzalez/delivery-optimizer"
-        target="_blank"
-        style={styles.link}
-      >
-        GitHub Code →
-      </a>
-    </div>
+  <a
+    href="https://github.com/maryhelengonzalez/delivery-optimizer"
+    target="_blank"
+    rel="noreferrer"
+    style={styles.link}
+  >
+    GitHub Code →
+  </a>
+</div>
   </div>
 </section>          
 
