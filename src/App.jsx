@@ -134,6 +134,7 @@ name: {
   filter: "drop-shadow(0 0 10px rgba(59,130,246,0.3))",
   cursor: "default",
   transition: "0.3s ease",
+  color: "#60a5fa"
 },
   tagline: {
   fontSize: "18px",
