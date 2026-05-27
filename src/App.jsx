@@ -126,10 +126,12 @@ const styles = {
  
 name: {
   fontSize: "46px",
-  fontWeight: "800",
+  fontWeight: "900",
   letterSpacing: "-1.5px",
-  color: "#ffffff",
-  textShadow: "0 0 10px rgba(96,165,250,0.6), 0 0 20px rgba(34,197,94,0.3)",
+  background: "linear-gradient(90deg, #22c55e, #3b82f6, #a855f7)",
+  WebkitBackgroundClip: "text",
+  WebkitTextFillColor: "transparent",
+  filter: "drop-shadow(0 0 10px rgba(59,130,246,0.3))",
 },
   tagline: {
   fontSize: "18px",
