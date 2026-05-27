@@ -123,18 +123,16 @@ const styles = {
     color: "#22c55e",
     textDecoration: "none",
   },
-  name: {
-  fontFamily: "'Inter', sans-serif",
-  fontSize: "44px",
+ 
+name: {
+  fontSize: "46px",
   fontWeight: "800",
-  letterSpacing: "-1.2px",
-  background: "linear-gradient(90deg, #ffffff, #60a5fa)",
+  letterSpacing: "-1.5px",
+  background: "linear-gradient(90deg, #ffffff, #60a5fa, #22c55e)",
   WebkitBackgroundClip: "text",
   WebkitTextFillColor: "transparent",
-  marginBottom: "8px",
 },
-
-tagline: {
+  tagline: {
   fontSize: "18px",
   color: "#93c5fd",
   marginBottom: "10px",
