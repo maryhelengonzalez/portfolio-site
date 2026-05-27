@@ -125,16 +125,13 @@ const styles = {
   },
  
 name: {
+  fontFamily: "'Poppins', sans-serif",
   fontSize: "46px",
   fontWeight: "900",
   letterSpacing: "-1.5px",
   background: "linear-gradient(90deg, #22c55e, #3b82f6, #a855f7)",
   WebkitBackgroundClip: "text",
   WebkitTextFillColor: "transparent",
-  filter: "drop-shadow(0 0 10px rgba(59,130,246,0.3))",
-  cursor: "default",
-  transition: "0.3s ease",
-  color: "#60a5fa"
 },
   tagline: {
   fontSize: "18px",
