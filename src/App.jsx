@@ -126,12 +126,12 @@ const styles = {
  
 name: {
   fontFamily: "'Space Grotesk', sans-serif",
-  fontSize: "52px",
+  fontSize: "50px",
   fontWeight: "800",
-  letterSpacing: "-2px",
+  letterSpacing: "-1.4px",
   color: "#ffffff",
-  marginBottom: "10px",
-  lineHeight: "1.1",
+  lineHeight: "1.05",
+  marginBottom: "6px",
 },
   heroText: {
   flex: 1,
@@ -140,10 +140,11 @@ name: {
   gap: "6px",
 },
   tagline: {
-  fontSize: "18px",
-  color: "#93c5fd",
-  marginBottom: "10px",
+  color: "#60a5fa",
+  fontSize: "16px",
   fontWeight: "500",
+  letterSpacing: "0.2px",
+  marginBottom: "6px",
 },
 
 subtitle: {
