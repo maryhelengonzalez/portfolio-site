@@ -220,7 +220,7 @@ export default function App() {
 
   <div style={styles.aboutCard}>
     <p style={styles.aboutText}>
-      I started my academic journey with an Associate’s degree in Industrial Design, where I developed a strong foundation in design thinking, structure, and system-based problem solving. As I progressed, I explored architectural concepts, but became increasingly interested in the logic and engineering behind software systems. That shift led me to pursue a Bachelor’s degree in Computer Science and Information Security, where I transitioned fully into software and cybersecurity. Today, I focus on building secure and scalable applications.
+      I started my academic journey with an Associate’s degree in Industrial Design, where I developed a strong foundation in design thinking, structure, and system based problem solving. As I progressed, I explored architectural concepts, but became increasingly interested in the logic and engineering behind software systems. That shift led me to pursue a Bachelor’s degree in Computer Science and Information Security, where I transitioned fully into software and cybersecurity. Today, I focus on building secure and scalable applications.
     </p>
   </div>
 </section>
