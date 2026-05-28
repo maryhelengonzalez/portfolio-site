@@ -241,7 +241,7 @@ export default function App() {
     </div>
 
     <p style={styles.text}>
-      AI powered financial dashboard with analytics and intelligent insights.
+     An AI powered financial dashboard that consolidates all accounts and financial history into one system, tracking, managing, and analyzing user activity while automatically calculating savings, funding, and spending to generate real time insights for better financial decision making.
     </p>
 
     <div style={styles.links}>
